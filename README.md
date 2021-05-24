@@ -16,7 +16,7 @@ python manage.py runserver
 ```angular2html
 celery -A mysite worker -l info
 ```
-###To run & install RabbitMQ using Docker
+### To run & install RabbitMQ using Docker
 ```angular2html
 docker run rabbitmq
 ```
