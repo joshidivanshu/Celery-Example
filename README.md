@@ -1,7 +1,7 @@
 ## Celery Example Project
 ### Running on Local Machine
 ```angular2html
-git clone 
+git clone https://github.com/joshidivanshu/Celery-Example
 ```
 ```angular2html
 pip install -r requirements.txt
