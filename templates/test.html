@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> Django Celery Example </h1>
+<br>
+<a href="{% url 'user_list' %}">User List</a> <a href="{% url 'generate_users' %}">Generate random users</a>
+<hr>
+<form method="post">
+    {% csrf_token %}
+{{form.as_p}}
+<input type="submit" value="Insert" class="btn btn-primary btn-lg">
+</form>
+</body>
+</html>
